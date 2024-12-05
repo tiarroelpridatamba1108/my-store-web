@@ -15,6 +15,8 @@ const geistMono = localFont({
 });
 
 export default function Home() {
+  console.log("geistSans", geistSans.variable);  
+  
   return (
     <>
       <Head>
